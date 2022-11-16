@@ -211,6 +211,7 @@ object-fit: cover;
 }
 /* Responsive */
 
+
 @media only screen and (max-width: 667px) {
    .skill>div>img{
       height: 40px;
@@ -220,6 +221,7 @@ object-fit: cover;
       border-radius: 8px;
       /* border: 1px solid black; */
    }
+  
    .fa-icons{
       text-align: center;
       display: flex;
@@ -248,6 +250,7 @@ object-fit: cover;
       text-decoration: none;
    
    }
+   
    .row{
       display: flex;
       flex-direction: column;
@@ -304,6 +307,10 @@ object-fit: cover;
    height: 280px;
    border-radius: 50%;
    
+}
+
+#git-stats{
+   text-align: center;
 }
 /*github */
 
@@ -584,3 +591,4 @@ form .btn2{
    width: 80%;
    margin:auto;
 }
+
